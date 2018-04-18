@@ -5,10 +5,10 @@ class Anagram
   def match(str)
     new_list =[]
     #new_arr = str.split(" ")
-    str.each do { |arr|
+    str.each  { |arr|
       if arr.split("").sort == @anagram.split("").sort
        new_list << arr
-     end    
+     end
     }
     new_list
     end
