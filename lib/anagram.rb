@@ -10,7 +10,7 @@ class Anagram
        new_list << arr
      end
     }
-    new_list
     end
+    new_list
   end
 end
