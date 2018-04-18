@@ -3,14 +3,14 @@ class Anagram
     @anagram = anagram
   end
   def match(str)
+    new_list =[]
     #new_arr = str.split(" ")
-    str.each do|arr|
-       if arr.split("").sort == @anagram.split("").sort
-        arr.split("")
-      else
-        nil
-      end
-      arr.split("")
+    str.each do { |arr|
+      if arr.split("").sort == @anagram.split("").sort
+       new_list << arr
+     end    
+    }
+    new_list
     end
   end
 end
