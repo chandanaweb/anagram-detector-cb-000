@@ -10,6 +10,7 @@ class Anagram
       else
         nil
       end
+      arr.split("")
     end
   end
 end
